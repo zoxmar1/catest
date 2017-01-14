@@ -36,7 +36,7 @@ public class InstallerTest {
     public void removeItem() throws Exception {
         InstallationManager.SINGLETON.remove("e");
         System.out.println("List with dependencies:\n" + InstallationManager.SINGLETON.listWithDependencies());
-        InstallationManager.SINGLETON.remove("x");
+        //InstallationManager.SINGLETON.remove("x");
     }
 
 }
